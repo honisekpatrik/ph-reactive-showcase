@@ -20,3 +20,20 @@ VALUES
 (8, 'Fantasy', '1998-07-02', 'Harry Potter and the Chamber of Secrets', 4),
 (9, 'Fiction', '1926-10-22', 'The Sun Also Rises', 5),
 (10, 'Fiction', '1952-09-01', 'The Old Man and the Sea', 5);
+
+insert into "check_book" (id, amount, name)
+values
+(1, 1000, 'A'),
+(2, 800, 'B'),
+(3, 1500, 'C');
+
+insert into "check" (id, amount, evaluation)
+values
+(1, 500, 98.65),
+(2, 200, 102.35),
+(3, 200, 87.45),
+(4, 600, 105.44),
+(5, 300, 102.21),
+(6, 450, 99.87),
+(7, 350, 101.05),
+(8, 200, 100.11);
